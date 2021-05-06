@@ -18,14 +18,13 @@ body {
   color: white;
 }
 
-.drum-kit {
+.keys {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Raleway', Arial;
 }
 
-.drum {
+.key {
   margin: 0 10px;
   border: 3px solid white;
   width: 100px;
@@ -33,9 +32,19 @@ body {
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
+  padding: 15px 0;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.drum p {
+.key kbd {
+  font-size: 2rem;
+  font-family: 'Raleway', Arial;
+  font-weight: 500;
+}
+
+.key span {
   text-transform: uppercase;
+  display: block;
+  font-family: 'Raleway', Arial;
 }
 /*# sourceMappingURL=style.css.map */
